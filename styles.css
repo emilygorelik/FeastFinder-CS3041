@@ -2,7 +2,10 @@
 
 body{
     background-color: #f58a07;
-
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0;
 }
 
 .hp_content{
@@ -38,4 +41,19 @@ body{
     border: #084887 1px solid;
     border-radius: 10px;
     padding: 5px 0;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.f_button{
+    width: 25%;
+    position: relative;
+    padding: 10% 0;
+    float: left;
+    text-align: center;
+    margin: auto;
 }
