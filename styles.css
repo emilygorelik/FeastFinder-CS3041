@@ -50,9 +50,21 @@ footer{
 }
 
 .f_button{
-    width: 25%;
+    width: calc(100%/3);
     position: relative;
     padding: 10% 0;
+    float: left;
+    text-align: center;
+    margin: auto;
+
+    color: #084887;
+    background-color: #28b7ca;
+    border: transparent;
+}
+
+.footer_img{
+    width: calc(100%/3);
+    position: relative;
     float: left;
     text-align: center;
     margin: auto;
