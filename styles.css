@@ -43,6 +43,17 @@ body{
     padding: 5px 0;
 }
 
+header{
+    width: 100%;
+    background-color: #28b7ca;
+    padding-top: 4px;
+}
+
+.header_img{
+    width: 100%;
+    background-color: #28b7ca;
+}
+
 footer{
     position: fixed;
     bottom: 0;
