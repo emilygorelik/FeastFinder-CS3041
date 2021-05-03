@@ -7,6 +7,7 @@ body{
     width: 100%;
     margin: 0;
 }
+
 #hp_body{
      background-color: #f58a07;
 }
@@ -52,7 +53,7 @@ header{
     padding-top: 4px;
 }
 
-.header_img{
+#header_img{
     width: 100%;
     background-color: #28b7ca;
 }
@@ -83,4 +84,39 @@ footer{
     float: left;
     text-align: center;
     margin: auto;
+}
+
+#profile_img{
+    width: 90%;
+    border: #084887 2px solid;
+    border-radius: 100px;
+    margin: 3px;
+    text-align: center;
+}
+
+.p_headers, .p_names{
+    font-family: arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    padding-left: 15px;
+    color: #084887;
+}
+ul{
+    font-family: arial, sans-serif;
+    font-size: medium;
+    color: #084887;
+}
+
+.p_headers, ul{
+    margin: 5px 0;
+}
+
+#p_table {   
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid transparent;
+    text-align:left;
 }

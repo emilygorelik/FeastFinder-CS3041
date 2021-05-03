@@ -11,38 +11,40 @@
 
 <body class="p_content">
     <header>
-        <img class="header_img" src="imgs/logo_no_watermark.png" alt="header_img"> 
+        <img id="header_img" src="imgs/logo_no_watermark.png" alt="header_img"> 
     </header>
-    <table>
+    <table id="p_table" style="border: 1px solid black;">
         <tr>
-          <th>Company</th>
-          <th>Contact</th>
+            <td style="height: 10px;" ></td>
         </tr>
         <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
+          <td style="width: 25%;" rowspan="2"><img id="profile_img" src="imgs/profile_pic.jpg" alt="profile_pic"></td>
+          <td class="p_names" style="width: 75%;">Emily Gorelik</td>
         </tr>
         <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
+          <td class="p_names">eagorelik@wpi.edu</td>
         </tr>
         <tr>
-          <td>Ernst Handel</td>
-          <td>Roland Mendel</td>
-        
+          <td colspan="2">
+               <p class="p_headers">Groups</p>
+               <ul>
+                   <li>Roommates</li>
+                   <li>Family</li>
+                   <li>The Besties</li>
+                   <li>The Boyfriend</li>
+               </ul>
+            </td>   
         </tr>
         <tr>
-          <td>Island Trading</td>
-          <td>Helen Bennett</td>
-        </tr>
-        <tr>
-          <td>Laughing Bacchus Winecellars</td>
-          <td>Yoshi Tannamuri</td>
-        </tr>
-        <tr>
-          <td>Magazzini Alimentari Riuniti</td>
-          <td>Giovanni Rovelli</td>
-        </tr>
+            <td colspan="2">
+                <p class="p_headers">Favorites</p>
+                 <ul>
+                     <li>The Boynton (Worcester, MA)</li>
+                     <li>Guacomole (Wayne, NJ)</li>
+                     <li>The Fix (Worcester, MA)</li>
+                 </ul>
+              </td>   
+          </tr>
       </table>
     <footer>
         <img style="background-color: #28b7ca;" class="footer_img" src="imgs/profile_icon.png" alt="profile" onclick="location.href='profile.html';"> 
