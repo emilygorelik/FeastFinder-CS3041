@@ -94,7 +94,7 @@ footer{
     text-align: center;
 }
 
-.p_headers, .p_names{
+.p_headers, .p_names,  #cs_text{
     font-family: arial, sans-serif;
     font-size: larger;
     font-weight: bolder;
@@ -111,7 +111,7 @@ ul{
     margin: 5px 0;
 }
 
-#p_table {   
+#p_table, #cs_table {   
     border-collapse: collapse;
     width: 100%;
 }
