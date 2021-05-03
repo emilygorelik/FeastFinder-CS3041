@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 body{
-    background-color: #f58a07;
+   background-color: #f7f5fb;
     overflow: hidden;
     position: relative;
     width: 100%;
     margin: 0;
+}
+#hp_body{
+     background-color: #f58a07;
 }
 
 .hp_content{
@@ -58,6 +61,7 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #f58a07;
 }
 
 .f_button{
