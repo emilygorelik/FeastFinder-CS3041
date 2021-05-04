@@ -86,7 +86,7 @@ footer{
     margin: auto;
 }
 
-#profile_img{
+#profile_img, #groups_img{
     width: 90%;
     border: #084887 2px solid;
     border-radius: 100px;
@@ -119,4 +119,25 @@ ul{
 td, th {
     border: 1px solid transparent;
     text-align:left;
+}
+
+#new_group_button{
+    width: 50%;
+    height: 100%;
+    background-color: #f58a07;
+    font-family: arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: #084887;
+    border: 1px solid #f58a07;
+} 
+.select_group_button{
+    width: 50%;
+    height: 100%;
+    background-color: #f58a07;
+    font-family: arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: #f58a07;
+    border: 1px solid #f58a07;
 }
