@@ -94,7 +94,7 @@ footer{
     text-align: center;
 }
 
-.p_headers, .p_names,  #cs_text{
+.p_headers, .p_names,  #cs_text, .rest_option{
     font-family: arial, sans-serif;
     font-size: larger;
     font-weight: bolder;
@@ -121,7 +121,7 @@ td, th {
     text-align:left;
 }
 
-#new_group_button{
+#new_group_button, .submit_button{
     width: 50%;
     height: 100%;
     background-color: #f58a07;
